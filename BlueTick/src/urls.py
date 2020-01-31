@@ -15,7 +15,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from EncDev.views  import decryption , home , encryption ,dec
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('' , home , name = 'home'),
+    path('dec/' , decryption , name='decryption' ),
+    path('enc/' , encryption , name='encryption' ),
+    path('d/',dec , name='dec')
+
 ]

@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block content %}
+<a href="{% url 'encryption' %}">
+  <div class="but-01" >
+  		<div class="txt-02">
+  			Encrypt Messages
+  		</div>
+  </div>
+ </a>
+
+ <a href="{% url 'decryption' %}">
+ 	<div class="but-02" >
+  		<div class="txt-02">
+  			Decrypt Messages
+  		</div>
+ 	</div>
+ </a>
+
+{% endblock content %}
+	

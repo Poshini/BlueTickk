@@ -1,0 +1,141 @@
+@font-face {
+  font-family: Pacifico-Regular;
+  src: url(fonts/Pacifico-Regular.ttf);
+}
+
+@font-face {
+  font-family: RobotoMono-Regular;
+  src: url(fonts/RobotoMono-Regular.ttf);
+}
+
+@font-face {
+  font-family: BebasNeue-Regular;
+  src: url(fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+  font-family: Slabo27px-Regular;
+  src: url(fonts/Slabo27px-Regularr.ttf);
+}
+
+.con-01{
+	background-color: #25D366 ;
+	height: 20vh;
+	width: 100%;
+	color: black;
+	position: relative;
+}
+
+.txt-01{
+	font-family: BebasNeue-Regular;
+	font-size: 99px;
+	margin-left: 40px;
+	padding-top: 15px;
+}
+
+.but-01{
+	position: absolute;
+	background-color: #80ffaa;
+	width: 500px;
+	height: 92px;
+	border-radius: 30px;
+	border-color: black;
+	border: 2px solid black;
+	margin-left: 35%;
+	margin-top: 10%;
+	transition: all 0.3s ;
+
+}
+
+.but-02{
+	position: absolute;
+	background-color: #80ffaa;
+	width: 500px;
+	height: 92px;
+	border-radius: 30px;
+	border-color: black;
+	border: 2px solid black;
+	margin-left: 35%;
+	margin-top: 20%;
+	transition: all 0.5s ;	
+}
+
+.but-02:hover {
+	transform: scale(1.1);
+	box-shadow:  2px 2px 40px 1px rgba(0,77,24,0.2);
+}
+
+.but-01:hover{
+	transform: scale(1.1);
+	box-shadow:  2px 2px 40px 1px rgba(0,77,24,0.2);
+}
+
+.txt-02{
+	font-family: RobotoMono-Regular;
+	font-size: 30px;
+	margin-left: 40px;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.card-01{
+	width: 60vw;
+	height: 70vh;
+	background-color: #25D366;
+	background-color: white;
+	opacity: 1;
+	margin:auto;
+	margin-top: 10px;
+}
+
+.txt-03{
+	font-family: RobotoMono-Regular;
+	font-size: 50px;
+	margin-left: 40px;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 15px;
+	opacity: 0.3;
+}
+
+.form-control{
+	width: 60%;
+}
+
+.txt-04{
+	display: inline-block;
+}
+
+.con-02{
+	
+	padding-left: 250px;
+	transform: scale(1.1);
+	margin: 0 5px;
+}
+
+a{
+	color: black;
+}
+
+.con-03{
+	
+	padding-left: 300px;
+	transform: scale(1.2);
+	margin: 0 5px;
+}
+
+.but-05{
+	margin-left: 170px;
+}
+
+.but-06{
+	margin-left: 170px;
+}
+
+.txt-11{
+	font-size: 50px;
+	padding-top: 20px;
+	font-family: Slabo27px-Regular;
+	text-align: center;
+}
