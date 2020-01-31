@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from EncDev.views import encryption
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('inc',encryption)
 ]
