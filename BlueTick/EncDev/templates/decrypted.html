@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block content %}
+{% if messages %}
+<br>
+<ul class="messages">
+    {% for message in messages %}
+     <div class="alert alert-warning alert-dismissible fade show">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+  </div>
+   
+   
+
+
+    {% endfor %}
+</ul>
+{% endif %}
+<div class="card-01">
+
+	<div class="txt-03">
+		<u>Decrypted Text<br> Sent By : {{sender}}<br></u>
+	</div>
+   <br>
+		<div class="txt-11">{{mes}}
+    </div>
+	
+
+</div>
+
+{% endblock content %}

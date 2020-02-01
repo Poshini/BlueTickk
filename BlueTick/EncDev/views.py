@@ -84,3 +84,4 @@ def encryption(request):
 
 def dec(request):
     return render(request , 'decrypted.html' ,{})
+

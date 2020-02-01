@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% block content %}
+
+{% if messages %}
+<br>
+<ul class="messages">
+    {% for message in messages %}
+    <div class="alert alert-success" role="alert">
+  {{message}}
+</div>
+    {% endfor %}
+</ul>
+{% endif %}
+
+
+<a href="{% url 'encryption' %}">
+  <div class="but-01" >
+  		<div class="txt-02">
+  			Encrypt Messages
+  		</div>
+  </div>
+ </a>
+
+ <a href="{% url 'decryption' %}">
+ 	<div class="but-02" >
+  		<div class="txt-02">
+  			Decrypt Messages
+  		</div>
+ 	</div>
+ </a>
+
+{% endblock content %}
+

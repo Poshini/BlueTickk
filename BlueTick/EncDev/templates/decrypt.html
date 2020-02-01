@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% block content %}
+{% if messages %}
+<br>
+<ul class="messages">
+    {% for message in messages %}
+     <div class="alert alert-warning alert-dismissible fade show">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+  </div>
+   
+   
+
+
+    {% endfor %}
+</ul>
+{% endif %}
+<div class="card-01">
+
+	<div class="txt-03">
+		Lets Decrypt It !
+	</div>
+    <form method="POST">
+       
+    	<br><br><br><br><br><br>
+    	<div class="con-02">
+    		{% csrf_token %}
+    		<input type="text" class="form-control" id="sender" aria-describedby="emailHelp" placeholder="Sender" name="sender"><br>
+    		<div class="but-06">
+    			<button type="submit" class="btn btn-success">Decrypt It!</button>
+    		</div>
+    	</div>
+
+    </form>
+</div>
+
+{% endblock content %}
