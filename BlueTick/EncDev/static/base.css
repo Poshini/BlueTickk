@@ -82,7 +82,8 @@
 	width: 60vw;
 	height: 70vh;
 	background-color: #25D366;
-	background-color: white;
+	background-color: rgba(22,22,22,0.3);
+	border-radius: 30px;
 	opacity: 1;
 	margin:auto;
 	margin-top: 10px;
@@ -96,7 +97,7 @@
 	font-weight: bold;
 	text-align: center;
 	padding-top: 15px;
-	opacity: 0.3;
+	opacity: 0.6;
 }
 
 .form-control{
