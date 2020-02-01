@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56e50126-903d-4258-9afc-01a677502119" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlueTick/EncDev/algo.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlueTick/EncDev/algo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlueTick/EncDev/static/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/BlueTick/EncDev/static/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlueTick/EncDev/templates/decrypt.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlueTick/EncDev/templates/decrypt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlueTick/EncDev/templates/decrypted.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlueTick/EncDev/templates/decrypted.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlueTick/EncDev/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlueTick/EncDev/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlueTick/EncDev/templates/encrypt.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlueTick/EncDev/templates/encrypt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlueTick/EncDev/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlueTick/EncDev/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlueTick/EncDev/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlueTick/EncDev/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlueTick/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/BlueTick/debug.log" afterDir="false" />
     </list>
@@ -17,33 +17,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BlueTick/src/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BlueTick/EncDev/templates/decrypted.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
-              <caret line="16" column="11" lean-forward="true" selection-start-line="2" selection-end-line="16" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BlueTick/EncDev/templates/encrypt.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-              <folding>
-                <element signature="e#253#260#1" expanded="true" />
-              </folding>
+              <caret line="16" column="11" selection-start-line="2" selection-end-line="16" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -51,7 +30,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BlueTick/EncDev/templates/decrypt.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
+            <state relative-caret-position="609">
               <caret line="29" column="60" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
               <folding>
                 <element signature="e#253#260#1" expanded="true" />
@@ -63,8 +42,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BlueTick/EncDev/algo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+            <state relative-caret-position="504">
+              <caret line="52" column="24" lean-forward="true" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BlueTick/EncDev/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -72,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BlueTick/src/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+            <state relative-caret-position="336">
+              <caret line="18" selection-end-line="27" />
               <folding>
                 <element signature="e#627#659#0" expanded="true" />
               </folding>
@@ -93,19 +81,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BlueTick/EncDev/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            <state relative-caret-position="252">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BlueTick/EncDev/apps.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BlueTick/EncDev/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="71" column="81" lean-forward="true" selection-start-line="71" selection-start-column="81" selection-end-line="71" selection-end-column="81" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BlueTick/EncDev/views.py">
+        <entry file="file://$PROJECT_DIR$/BlueTick/EncDev/templates/encrypt.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="76" column="79" selection-start-line="76" selection-start-column="79" selection-end-line="76" selection-end-column="79" />
+            <state relative-caret-position="266">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#253#260#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,15 +133,16 @@
       <list>
         <option value="$PROJECT_DIR$/BlueTick/src/settings.py" />
         <option value="$PROJECT_DIR$/BlueTick/EncDev/templates/encdec.html" />
-        <option value="$PROJECT_DIR$/BlueTick/EncDev/templates/base.html" />
         <option value="$PROJECT_DIR$/BlueTick/EncDev/templates/encrpt.html" />
-        <option value="$PROJECT_DIR$/BlueTick/EncDev/algo.py" />
         <option value="$PROJECT_DIR$/BlueTick/src/urls.py" />
-        <option value="$PROJECT_DIR$/BlueTick/EncDev/templates/encrypt.html" />
         <option value="$PROJECT_DIR$/BlueTick/EncDev/templates/decrypt.html" />
         <option value="$PROJECT_DIR$/BlueTick/EncDev/templates/decrypted.html" />
         <option value="$PROJECT_DIR$/BlueTick/EncDev/templates/home.html" />
+        <option value="$PROJECT_DIR$/BlueTick/EncDev/templates/base.html" />
+        <option value="$PROJECT_DIR$/BlueTick/EncDev/templates/whatsapprecent.py" />
+        <option value="$PROJECT_DIR$/BlueTick/EncDev/algo.py" />
         <option value="$PROJECT_DIR$/BlueTick/EncDev/views.py" />
+        <option value="$PROJECT_DIR$/BlueTick/EncDev/templates/encrypt.html" />
       </list>
     </option>
   </component>
@@ -152,7 +158,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,6 +193,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,7 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.whatsapprecent">
     <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BlueTick" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -232,8 +238,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="whatsapprecent" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BlueTick" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BlueTick/EncDev/templates" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BlueTick/EncDev/templates/whatsapprecent.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.whatsapprecent" />
         <item itemvalue="Python.views" />
       </list>
     </recent_temporary>
@@ -257,12 +285,12 @@
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24983476" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.2733711" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="2" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
@@ -274,71 +302,37 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BlueTick/EncDev/templates/encdec.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BlueTick/EncDev/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BlueTick/EncDev/templates/encrpt.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/BlueTick/EncDev/templates/encdec.html" />
+    <entry file="file://$PROJECT_DIR$/BlueTick/EncDev/templates/encrpt.html" />
+    <entry file="file://$PROJECT_DIR$/BlueTick/EncDev/templates/whatsapprecent.py" />
     <entry file="file://$PROJECT_DIR$/BlueTick/src/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BlueTick/EncDev/algo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BlueTick/src/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-          <folding>
-            <element signature="e#627#659#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BlueTick/EncDev/templates/encrypt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding>
-            <element signature="e#253#260#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BlueTick/EncDev/templates/decrypt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="29" column="60" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
-          <folding>
-            <element signature="e#253#260#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="903">
+          <caret line="43" column="21" selection-end-line="121" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BlueTick/EncDev/templates/decrypted.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="16" column="11" lean-forward="true" selection-start-line="2" selection-end-line="16" selection-end-column="11" />
+          <caret line="16" column="11" selection-start-line="2" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BlueTick/EncDev/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BlueTick/src/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="18" selection-end-line="27" />
+          <folding>
+            <element signature="e#627#659#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -349,12 +343,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BlueTick/EncDev/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BlueTick/EncDev/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BlueTick/EncDev/algo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="52" column="24" lean-forward="true" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BlueTick/EncDev/templates/decrypt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="29" column="60" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
+          <folding>
+            <element signature="e#253#260#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BlueTick/EncDev/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="76" column="79" selection-start-line="76" selection-start-column="79" selection-end-line="76" selection-end-column="79" />
+        <state relative-caret-position="282">
+          <caret line="71" column="81" lean-forward="true" selection-start-line="71" selection-start-column="81" selection-end-line="71" selection-end-column="81" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BlueTick/EncDev/templates/encrypt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#253#260#1" expanded="true" />
           </folding>
         </state>
       </provider>

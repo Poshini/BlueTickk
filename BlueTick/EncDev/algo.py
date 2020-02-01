@@ -17,7 +17,9 @@ def Encryptmsg(msg):
         temp = temp // 10
     tempstr = ""
     for i in range(msglen):
-        if i % 2 == 0:
+        if chr(ord(msg[i]) ^ rand) == '<' or chr(ord(msg[i]) ^ rand) == '>':
+            tempstr += msg[i]
+        elif i % 2 == 0:
             tempstr += chr(ord(msg[i]) ^ rand)
         else:
             tempstr += chr(ord(msg[i]) + i % 5);
@@ -46,7 +48,9 @@ def Decryptmsg(p):
     rand = int(randstr)
     decryptedmsg = ""
     for i in range(msglen):
-        if i % 2 == 0:
+        if chr(ord(msg[i]) ^ rand) == '<' or chr(ord(msg[i]) ^ rand) == '>':
+            decryptedmsg += msg[i]
+        elif i % 2 == 0:
             decryptedmsg += chr(ord(msg[i]) ^ rand)
         else:
             decryptedmsg += chr(ord(msg[i]) - i % 5);

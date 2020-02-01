@@ -65,8 +65,8 @@ def encryption(request):
             #search_box.sendkeys('Mudit')
             #driver.findElement(By.id("invoice_supplier_id")).sendKeys("value", "your value");
             #search_box.submit()
-            time.sleep(5)
-            search_box = driver.find_element_by_css_selector("span[title=%s]" %name).click();
+            time.sleep(8)
+            search_box = driver.find_element_by_css_selector("div[style='z-index: 0; transition: none 0s ease 0s; height: 72px; transform: translateY(72px);']").click();
             # Let the user actually see something!
             s = ""
             element =   driver.find_element_by_css_selector("div[class*='_3u328 copyable-text selectable-text']").click();
@@ -84,3 +84,4 @@ def encryption(request):
 
 def dec(request):
     return render(request , 'decrypted.html' ,{})
+
